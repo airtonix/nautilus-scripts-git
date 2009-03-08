@@ -1,0 +1,4 @@
+#/bin/bash
+# checkout master
+git push origin `zenity --enrty --text='branch name'`
+

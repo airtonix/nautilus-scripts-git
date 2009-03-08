@@ -1,0 +1,4 @@
+#/bin/bash
+# checkout master
+git checkout master
+

@@ -1,0 +1,9 @@
+#/bin/bash
+# init git repo in this folder
+git init
+touch README
+git add *
+git commit -am `zenity --entry --text='Commit Message' --entry-text='first commit'`
+git remote add origin git@github.com:$USER/`basename $NAUTILUS_SCRIPT_CURRENT_URI`
+git push origin master
+
