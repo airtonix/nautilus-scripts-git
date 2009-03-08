@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 # init git repo in this folder
 git init
 touch README

@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 # create revision commit 
 git add *
 git commit -am `zenity --entry --text='Commit Message' --entry-text='first commit'`
