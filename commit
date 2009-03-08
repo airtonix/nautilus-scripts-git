@@ -1,5 +1,5 @@
 #!/bin/bash
 # create revision commit 
-git add * | zenity --text-info  --text=$NAUTILUS_SCRIPT_CURRENT_URI
- git commit -m `zenity --entry --text=$NAUTILUS_SCRIPT_CURRENT_URI --entry-text='first commit'` | zenity --text-info
+git add * | zenity --text-info
+ git commit -m `zenity --entry --text=$PWD --entry-text='first commit'` | zenity --text-info
 
