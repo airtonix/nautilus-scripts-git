@@ -2,5 +2,5 @@
 # create revision commit 
 DirName=`basename $PWD`
 git add *
-git commit -m `zenity --entry --text=$DirName --entry-text='first commit'`  | zenity --text-info
+git commit -am `zenity --entry --text=$DirName --entry-text='first commit'`  | zenity --text-info
 

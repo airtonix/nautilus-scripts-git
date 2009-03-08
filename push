@@ -1,4 +1,4 @@
 #!/bin/bash
-# checkout master
-git push origin `zenity --entry --text='branch name'  --entry-text='master'`
-
+# push master
+branchName=`zenity --entry --text='branch name'  --entry-text='master'`
+git push origin $branchName | zenity --text-info
