@@ -1,6 +1,6 @@
 #!/bin/bash
 # create revision commit 
-$dirName = `basname $PWD`
+dirname=basename $PWD
 git add * | zenity --text-info
- git commit -m `zenity --entry --text=$dirName --entry-text='first commit'` | zenity --text-info
+ git commit -m `zenity --entry --text=$dirname --entry-text='first commit'` | zenity --text-info
 
