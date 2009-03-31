@@ -1,0 +1,4 @@
+#!/bin/bash
+# update data in this folder
+git add * 
+git commit -am `zenity --entry --text='Commit Message' --entry-text='first commit'`

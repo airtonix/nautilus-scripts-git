@@ -1,0 +1,3 @@
+#!/bin/bash
+# update data in this folder
+git branch `zenity --entry --text='New Branch Name' --entry-text='Branch Name'`
